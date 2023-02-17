@@ -1,0 +1,17 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "PutMedia",
+            "Effect": "Allow",
+            "Action": [
+                "kinesisvideo:PutMedia",
+                "kinesisvideo:DescribeStream",
+                "kinesisvideo:GetDataEndpoint",
+                "kinesisvideo:UpdateImageGenerationConfiguration",
+                "kinesisvideo:DescribeImageGenerationConfiguration"
+            ],
+            "Resource": "{{ARN_KINESIS_VIDEO_STREAM}}"
+        }
+    ]
+}

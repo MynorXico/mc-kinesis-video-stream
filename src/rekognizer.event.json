@@ -1,0 +1,28 @@
+{
+  "version": "0",
+  "id": "5f089127-007b-b0eb-b37f-ca2d17bda2f8",
+  "detail-type": "Object Created",
+  "source": "aws.s3",
+  "account": "957673056596",
+  "time": "2023-02-14T03:41:38Z",
+  "region": "us-east-1",
+  "resources": [
+    "arn:aws:s3:::{{ORIGINAL_IMAGES_BUCKET_NAME}}"
+  ],
+  "detail": {
+    "version": "0",
+    "bucket": {
+      "name": "{{ORIGINAL_IMAGES_BUCKET_NAME}}"
+    },
+    "object": {
+      "key": "sample-image.jpeg",
+      "size": 299762,
+      "etag": "b3e15fa89bb39241c72fb1678668ad15",
+      "sequencer": "0063EB02F224816495"
+    },
+    "request-id": "XSPCQDMDS515AXAT",
+    "requester": "957673056596",
+    "source-ip-address": "200.119.182.153",
+    "reason": "PutObject"
+  }
+}

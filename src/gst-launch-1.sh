@@ -1,0 +1,1 @@
+gst-launch-1.0 -v rtspsrc location="rtspt://52.38.109.4:8080/h264_ulaw.sdp" short-header=TRUE ! rtph264depay ! video/x-h264, format=avc,alignment=au ! h264parse ! kvssink name=sink stream-name=""  access-key="" secret-key="" aws-region=""  # stream-tags="AWS_KINESISVIDEO_IMAGE_GENERATION"

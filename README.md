@@ -1,0 +1,1 @@
+# mc-kinesis-video-stream

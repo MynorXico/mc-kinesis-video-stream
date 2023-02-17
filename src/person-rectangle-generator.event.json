@@ -1,0 +1,54 @@
+{
+    "bucket": "{ORIGINAL_IMAGE_BUCKET_NAME}",
+    "key": "sample-image.png",
+    "labels": [
+      {
+        "name": "Indoors"
+      },
+      {
+        "name": "Person",
+        "boundingBox": {
+          "Height": 0.7129622101783752,
+          "Left": 0.22883662581443787,
+          "Top": 0.2711467146873474,
+          "Width": 0.3305334448814392
+        }
+      },
+      {
+        "name": "Man",
+        "boundingBox": {
+          "Height": 0.7129622101783752,
+          "Left": 0.22883662581443787,
+          "Top": 0.2711467146873474,
+          "Width": 0.3305334448814392
+        }
+      },
+      {
+        "name": "Adult",
+        "boundingBox": {
+          "Height": 0.7129622101783752,
+          "Left": 0.22883662581443787,
+          "Top": 0.2711467146873474,
+          "Width": 0.3305334448814392
+        }
+      },
+      {
+        "name": "Male",
+        "boundingBox": {
+          "Height": 0.7129622101783752,
+          "Left": 0.22883662581443787,
+          "Top": 0.2711467146873474,
+          "Width": 0.3305334448814392
+        }
+      },
+      {
+        "name": "Face"
+      },
+      {
+        "name": "Head"
+      },
+      {
+        "name": "Interior Design"
+      }
+    ]
+  }
